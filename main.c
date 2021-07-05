@@ -27,8 +27,6 @@ void	check_argv_two(char **argv, int argc, int i)
 		}
 		j++;
 	}
-	if (argc < 2)
-		exit(1);
 }
 
 void	check_argv(char **argv, int argc, int i)
@@ -36,7 +34,6 @@ void	check_argv(char **argv, int argc, int i)
 	int	j;
 
 	j = 1;
-
 	while (argv[i] != NULL)
 	{	
 		check_argv_two(argv, argc, i);
@@ -82,6 +79,8 @@ int	main(int argc, char **argv)
 	t_source	src;
 
 	check_argv(argv, argc, 1);
+	if (argc < 2)
+		exit(1);
 	src.ta = malloc(sizeof(int *) * (argc - 1));
 	src.tb = malloc(sizeof(int *) * (argc - 1));
 	src.ta_sort = malloc(sizeof(int *) * (argc - 1));
