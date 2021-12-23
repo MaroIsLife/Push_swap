@@ -1,6 +1,6 @@
 # Push_swap
 
-![A visual example of push_swap with a small stack](https://miro.medium.com/max/875/1*rXKk8juFHQaLzI-uJyEVog.png)
+![Example](https://miro.medium.com/max/875/1*rXKk8juFHQaLzI-uJyEVog.png)
 
 ## Introduction
 
