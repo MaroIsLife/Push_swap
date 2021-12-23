@@ -1,10 +1,6 @@
 # Push_swap
 
-# push\_swap
-
-_Swap push is strange, isn't it???_
-
-![A visual example of push_swap with a small stack](./assets/push_swap_small.gif)
+![A visual example of push_swap with a small stack](https://miro.medium.com/max/875/1*rXKk8juFHQaLzI-uJyEVog.png)
 
 ## Introduction
 
